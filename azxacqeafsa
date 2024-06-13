@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    /* Yazı tipi ailesi */
+    font-size: 11px;    
+    /* <p></p> etiketindeki ana yazı tipi boyutu */
+    background-color: #f0f0f0;
+    /* Web sayfasının arka plan rengi */
+    color: #333;
+    /* Metin rengi */
+}
+
+
+@keyframes color-change {
+    0% {
+        color:aqua
+    }
+    25% {
+        color: brown;
+    }
+    37%{
+        color: orange;
+    }
+    42%{
+    color: #00a800;
+    }
+    100%{
+        color: cornflowerblue;
+    }
+}
+@keyframes color-change-2 {
+    0% {
+        color:aqua
+    }
+    25% {
+        color: brown;
+    }
+    37%{
+        color: orange;
+    }
+    42%{
+    color: #00a800;
+    }
+    100%{
+        color: cornflowerblue;
+    }
+}
+
+
+
+
+
+h1:hover {
+    animation: color-change 5s infinite;
+}
+
+h2:hover {
+    animation: color-change-2 5s infinite;
+}
